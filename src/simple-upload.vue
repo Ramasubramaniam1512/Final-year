@@ -71,3 +71,35 @@ export default{
     
 }
 </script>
+<style>
+/* @import "bourbon";
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,300); */
+body{
+    
+    /* background-color: #002a3f; */
+    padding: 0 ;
+    margin: 0;
+
+}
+input[type="file"]{
+    display: none;
+}
+
+label{
+    color: white;
+    height: 60px;
+    width: 250px;
+    background-color: #f5af09;
+    position: absolute;
+    margin: auto;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+</style>
